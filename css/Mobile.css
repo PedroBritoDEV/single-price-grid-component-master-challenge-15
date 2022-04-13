@@ -1,0 +1,35 @@
+@media (max-width: 660px) {
+    body {
+        padding: 30px;
+        height: auto;
+    }
+     
+    .content {
+        width: 320px;
+        height: 720px;
+        grid-template-rows: 36%  32% 32%;
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        'main '
+        'section'
+        'footer';
+    }
+    .content > * {
+        padding: 25px;
+    }
+    .content main h1 {
+        font-size: 1.3em;
+    }
+    .content main h3 {
+        font-size: 1em;
+    }   
+    .content main p {
+        font-size: .9em;
+        line-height: 23px;
+    }
+
+    .content footer p {
+        font-size: 1em;
+        line-height: 20px;
+    }
+}
